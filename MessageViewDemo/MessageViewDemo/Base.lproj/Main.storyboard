@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TYr-ab-RYM">
+                                <rect key="frame" x="118.5" y="258" width="138" height="30"/>
+                                <state key="normal" title="Light Message View"/>
+                                <connections>
+                                    <action selector="lightMessageViewButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="USz-hF-LED"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRI-xf-9yf">
+                                <rect key="frame" x="109.5" y="378" width="156" height="30"/>
+                                <state key="normal" title="Custem Message View"/>
+                                <connections>
+                                    <action selector="customMessageViewButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I2u-re-QIA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UB-3T-Yxb">
+                                <rect key="frame" x="120" y="318" width="135" height="30"/>
+                                <state key="normal" title="Dark Message View"/>
+                                <connections>
+                                    <action selector="darkMessageViewButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VmV-Ko-a4y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QRI-xf-9yf" firstAttribute="top" secondItem="1UB-3T-Yxb" secondAttribute="bottom" constant="30" id="Q0M-fe-fav"/>
+                            <constraint firstItem="TYr-ab-RYM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SlX-Ym-wZH"/>
+                            <constraint firstItem="1UB-3T-Yxb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dF4-K5-wBq"/>
+                            <constraint firstItem="QRI-xf-9yf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dct-1H-gGL"/>
+                            <constraint firstItem="1UB-3T-Yxb" firstAttribute="top" secondItem="TYr-ab-RYM" secondAttribute="bottom" constant="30" id="g6f-Hv-out"/>
+                            <constraint firstItem="1UB-3T-Yxb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="k2d-ob-XBC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
