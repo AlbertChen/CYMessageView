@@ -1,0 +1,16 @@
+PODS:
+  - CYMessageView (0.0.1)
+
+DEPENDENCIES:
+  - CYMessageView (from `../`)
+
+EXTERNAL SOURCES:
+  CYMessageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYMessageView: c16ffca3012285ba01f35e76e901d3badfdb1b8b
+
+PODFILE CHECKSUM: e2e061b053e5f741565b84ff055c30792144cfa8
+
+COCOAPODS: 1.9.1

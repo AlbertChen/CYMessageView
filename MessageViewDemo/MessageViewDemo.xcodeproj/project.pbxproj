@@ -7,37 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE1B8D8B1EAD0CA400F69387 /* CYMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1B8D8A1EAD0CA400F69387 /* CYMessageView.m */; };
 		DEA187461EA9A46000849B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA187451EA9A46000849B01 /* main.m */; };
 		DEA187491EA9A46000849B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA187481EA9A46000849B01 /* AppDelegate.m */; };
 		DEA1874C1EA9A46000849B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA1874B1EA9A46000849B01 /* ViewController.m */; };
 		DEA1874F1EA9A46000849B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA1874D1EA9A46000849B01 /* Main.storyboard */; };
 		DEA187511EA9A46000849B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA187501EA9A46000849B01 /* Assets.xcassets */; };
 		DEA187541EA9A46000849B01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA187521EA9A46000849B01 /* LaunchScreen.storyboard */; };
-		DEA1875F1EA9A46000849B01 /* MessageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA1875E1EA9A46000849B01 /* MessageViewDemoTests.m */; };
-		DEA1876A1EA9A46100849B01 /* MessageViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA187691EA9A46100849B01 /* MessageViewDemoUITests.m */; };
+		E998253346ABE2CD64CB544A /* Pods_MessageViewDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E92D7AB3B8759F2CBD3087D /* Pods_MessageViewDemo.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DEA1875B1EA9A46000849B01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DEA187391EA9A46000849B01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DEA187401EA9A46000849B01;
-			remoteInfo = MessageViewDemo;
-		};
-		DEA187661EA9A46100849B01 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DEA187391EA9A46000849B01 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DEA187401EA9A46000849B01;
-			remoteInfo = MessageViewDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DE1B8D891EAD0CA400F69387 /* CYMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYMessageView.h; sourceTree = "<group>"; };
-		DE1B8D8A1EAD0CA400F69387 /* CYMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYMessageView.m; sourceTree = "<group>"; };
+		7E92D7AB3B8759F2CBD3087D /* Pods_MessageViewDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageViewDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C750FCFC2A9D40BD5645B059 /* Pods-MessageViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageViewDemo.release.xcconfig"; path = "Target Support Files/Pods-MessageViewDemo/Pods-MessageViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DEA187411EA9A46000849B01 /* MessageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA187451EA9A46000849B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEA187471EA9A46000849B01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,12 +29,7 @@
 		DEA187501EA9A46000849B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA187531EA9A46000849B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA187551EA9A46000849B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEA1875A1EA9A46000849B01 /* MessageViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA1875E1EA9A46000849B01 /* MessageViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewDemoTests.m; sourceTree = "<group>"; };
-		DEA187601EA9A46100849B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEA187651EA9A46100849B01 /* MessageViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEA187691EA9A46100849B01 /* MessageViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewDemoUITests.m; sourceTree = "<group>"; };
-		DEA1876B1EA9A46100849B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD9E5F722BE44474415F853 /* Pods-MessageViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-MessageViewDemo/Pods-MessageViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,43 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEA187571EA9A46000849B01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEA187621EA9A46100849B01 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E998253346ABE2CD64CB544A /* Pods_MessageViewDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE1B8D881EAD0CA400F69387 /* CYMessageView */ = {
+		8FA85167893E4611E2E9903C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DE1B8D891EAD0CA400F69387 /* CYMessageView.h */,
-				DE1B8D8A1EAD0CA400F69387 /* CYMessageView.m */,
+				FFD9E5F722BE44474415F853 /* Pods-MessageViewDemo.debug.xcconfig */,
+				C750FCFC2A9D40BD5645B059 /* Pods-MessageViewDemo.release.xcconfig */,
 			);
-			name = CYMessageView;
-			path = ../../CYMessageView;
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B028695E41E9B0D61DA4913E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E92D7AB3B8759F2CBD3087D /* Pods_MessageViewDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DEA187381EA9A46000849B01 = {
 			isa = PBXGroup;
 			children = (
 				DEA187431EA9A46000849B01 /* MessageViewDemo */,
-				DEA1875D1EA9A46000849B01 /* MessageViewDemoTests */,
-				DEA187681EA9A46100849B01 /* MessageViewDemoUITests */,
 				DEA187421EA9A46000849B01 /* Products */,
+				8FA85167893E4611E2E9903C /* Pods */,
+				B028695E41E9B0D61DA4913E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				DEA187411EA9A46000849B01 /* MessageViewDemo.app */,
-				DEA1875A1EA9A46000849B01 /* MessageViewDemoTests.xctest */,
-				DEA187651EA9A46100849B01 /* MessageViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +83,6 @@
 		DEA187431EA9A46000849B01 /* MessageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DE1B8D881EAD0CA400F69387 /* CYMessageView */,
 				DEA187471EA9A46000849B01 /* AppDelegate.h */,
 				DEA187481EA9A46000849B01 /* AppDelegate.m */,
 				DEA1874A1EA9A46000849B01 /* ViewController.h */,
@@ -136,24 +104,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DEA1875D1EA9A46000849B01 /* MessageViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				DEA1875E1EA9A46000849B01 /* MessageViewDemoTests.m */,
-				DEA187601EA9A46100849B01 /* Info.plist */,
-			);
-			path = MessageViewDemoTests;
-			sourceTree = "<group>";
-		};
-		DEA187681EA9A46100849B01 /* MessageViewDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DEA187691EA9A46100849B01 /* MessageViewDemoUITests.m */,
-				DEA1876B1EA9A46100849B01 /* Info.plist */,
-			);
-			path = MessageViewDemoUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEA1876E1EA9A46100849B01 /* Build configuration list for PBXNativeTarget "MessageViewDemo" */;
 			buildPhases = (
+				5D4DF475A19C09A080869937 /* [CP] Check Pods Manifest.lock */,
 				DEA1873D1EA9A46000849B01 /* Sources */,
 				DEA1873E1EA9A46000849B01 /* Frameworks */,
 				DEA1873F1EA9A46000849B01 /* Resources */,
+				6943F8564C19F0BC7DDB91A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,42 +125,6 @@
 			productName = MessageViewDemo;
 			productReference = DEA187411EA9A46000849B01 /* MessageViewDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DEA187591EA9A46000849B01 /* MessageViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DEA187711EA9A46100849B01 /* Build configuration list for PBXNativeTarget "MessageViewDemoTests" */;
-			buildPhases = (
-				DEA187561EA9A46000849B01 /* Sources */,
-				DEA187571EA9A46000849B01 /* Frameworks */,
-				DEA187581EA9A46000849B01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DEA1875C1EA9A46000849B01 /* PBXTargetDependency */,
-			);
-			name = MessageViewDemoTests;
-			productName = MessageViewDemoTests;
-			productReference = DEA1875A1EA9A46000849B01 /* MessageViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DEA187641EA9A46100849B01 /* MessageViewDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DEA187741EA9A46100849B01 /* Build configuration list for PBXNativeTarget "MessageViewDemoUITests" */;
-			buildPhases = (
-				DEA187611EA9A46100849B01 /* Sources */,
-				DEA187621EA9A46100849B01 /* Frameworks */,
-				DEA187631EA9A46100849B01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DEA187671EA9A46100849B01 /* PBXTargetDependency */,
-			);
-			name = MessageViewDemoUITests;
-			productName = MessageViewDemoUITests;
-			productReference = DEA187651EA9A46100849B01 /* MessageViewDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -224,16 +140,6 @@
 						DevelopmentTeam = ZF6TVZV5SQ;
 						ProvisioningStyle = Automatic;
 					};
-					DEA187591EA9A46000849B01 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DEA187401EA9A46000849B01;
-					};
-					DEA187641EA9A46100849B01 = {
-						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = DEA187401EA9A46000849B01;
-					};
 				};
 			};
 			buildConfigurationList = DEA1873C1EA9A46000849B01 /* Build configuration list for PBXProject "MessageViewDemo" */;
@@ -241,6 +147,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -250,8 +157,6 @@
 			projectRoot = "";
 			targets = (
 				DEA187401EA9A46000849B01 /* MessageViewDemo */,
-				DEA187591EA9A46000849B01 /* MessageViewDemoTests */,
-				DEA187641EA9A46100849B01 /* MessageViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,21 +172,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEA187581EA9A46000849B01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEA187631EA9A46100849B01 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D4DF475A19C09A080869937 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MessageViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6943F8564C19F0BC7DDB91A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MessageViewDemo/Pods-MessageViewDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CYMessageView/CYMessageView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYMessageView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MessageViewDemo/Pods-MessageViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEA1873D1EA9A46000849B01 /* Sources */ = {
@@ -290,41 +224,11 @@
 			files = (
 				DEA1874C1EA9A46000849B01 /* ViewController.m in Sources */,
 				DEA187491EA9A46000849B01 /* AppDelegate.m in Sources */,
-				DE1B8D8B1EAD0CA400F69387 /* CYMessageView.m in Sources */,
 				DEA187461EA9A46000849B01 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEA187561EA9A46000849B01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEA1875F1EA9A46000849B01 /* MessageViewDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEA187611EA9A46100849B01 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEA1876A1EA9A46100849B01 /* MessageViewDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DEA1875C1EA9A46000849B01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DEA187401EA9A46000849B01 /* MessageViewDemo */;
-			targetProxy = DEA1875B1EA9A46000849B01 /* PBXContainerItemProxy */;
-		};
-		DEA187671EA9A46100849B01 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DEA187401EA9A46000849B01 /* MessageViewDemo */;
-			targetProxy = DEA187661EA9A46100849B01 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DEA1874D1EA9A46000849B01 /* Main.storyboard */ = {
@@ -436,6 +340,7 @@
 		};
 		DEA1876F1EA9A46100849B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD9E5F722BE44474415F853 /* Pods-MessageViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZF6TVZV5SQ;
@@ -449,6 +354,7 @@
 		};
 		DEA187701EA9A46100849B01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C750FCFC2A9D40BD5645B059 /* Pods-MessageViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZF6TVZV5SQ;
@@ -457,52 +363,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.MessageViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DEA187721EA9A46100849B01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MessageViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.MessageViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessageViewDemo.app/MessageViewDemo";
-			};
-			name = Debug;
-		};
-		DEA187731EA9A46100849B01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MessageViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.MessageViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MessageViewDemo.app/MessageViewDemo";
-			};
-			name = Release;
-		};
-		DEA187751EA9A46100849B01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MessageViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.MessageViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MessageViewDemo;
-			};
-			name = Debug;
-		};
-		DEA187761EA9A46100849B01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MessageViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyyun.MessageViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = MessageViewDemo;
 			};
 			name = Release;
 		};
@@ -523,24 +383,6 @@
 			buildConfigurations = (
 				DEA1876F1EA9A46100849B01 /* Debug */,
 				DEA187701EA9A46100849B01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEA187711EA9A46100849B01 /* Build configuration list for PBXNativeTarget "MessageViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DEA187721EA9A46100849B01 /* Debug */,
-				DEA187731EA9A46100849B01 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEA187741EA9A46100849B01 /* Build configuration list for PBXNativeTarget "MessageViewDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DEA187751EA9A46100849B01 /* Debug */,
-				DEA187761EA9A46100849B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

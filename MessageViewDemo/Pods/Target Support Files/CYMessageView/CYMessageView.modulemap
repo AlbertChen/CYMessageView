@@ -1,0 +1,6 @@
+framework module CYMessageView {
+  umbrella header "CYMessageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
